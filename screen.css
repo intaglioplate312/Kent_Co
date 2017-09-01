@@ -1,0 +1,264 @@
+body {
+	text-align:center; /* IE6 needs this to center the layout in the browser window */
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em; /* 1em = 16pts */
+	background-color: #fffde9;
+		}
+* { 
+	margin:0em; padding:0em; 
+	}
+body * {
+	font-family: Helvetica, Arial, sans-serif;
+	color:#0068b7;
+	} 
+	
+#main_wrapper {
+	width:840px; /* widths of columns will change proportionately as this width is changed */
+	margin-left:auto;  /* centers layout in browser */
+	margin-right:auto; /* centers layout in browser */
+	text-align:left; /* resets the centering hack for IE6 on the body tag */
+	
+	}
+#header {
+	background-image: url(images/header.jpg);
+	padding: 1em 0em 1em 0em;	
+	}
+#navbar{
+	background-color: #FFFF00;
+	overflow:hidden;
+	}
+#content {
+	margin:0em;
+	padding:0em;
+	background-color: #FFFFFF;
+	height: 850px;
+	}
+	
+#top{
+	background-color: #FFFFFF;
+	overflow:hidden;
+	margin-bottom: 15px;
+	/*margin-top: 30px;*/
+	padding-left: 30px;
+	padding-top: 2em;
+	}
+#middle{
+	background-color: #FFFFFF;
+	overflow:hidden;
+	margin-bottom: 15px;
+	padding-left: 30px;
+		}
+#bottom{
+	background-color: #FFFFFF;
+	overflow:hidden;
+	margin-bottom: 15px;
+	padding-left: 30px;
+		}
+		
+#edd_bottom{
+	background-color: #FFFFFF;
+	overflow:hidden;
+	margin-bottom: 15px;
+	padding-left: 30px;
+		}
+	
+.left {
+	float:left;
+	padding-top: 1em;
+	padding-right: 0.5em;
+	padding-bottom: 1em;
+	padding-left: 0.5em;
+	}
+.home_left {
+	width:23%; /* this width + content width must total 100% */
+	float:left;
+	padding-top: 2em;
+	padding-right: 2em;
+	padding-bottom: 0em;
+	padding-left: 1em;
+	}
+	
+.right {
+	float:left; /* floats on nav and content divs make them sit side by side */
+	width:75%; /* this width + nav width must total 100% */
+	overflow:hidden;
+	padding-top: 2em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 2em;
+	}
+.spright {
+	float:left; /* floats on nav and content divs make them sit side by side */
+	width:65%; /* this width + nav width must total 100% */
+	overflow:hidden;
+	padding-top: 2em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 1em;
+	}
+	
+#left {
+	width:22%; /* this width + content width must total 100% */
+	float:left; /* floats on nav and content divs make them sit side by side */
+	}
+#right {
+	float:left; /* floats on nav and content divs make them sit side by side */
+	width:76%; /* this width + nav width must total 100% */
+	}
+	
+	
+	
+#pleft {
+	width:38%; /* this width + content width must total 100% */
+	float:left; /* floats on nav and content divs make them sit side by side */
+	}
+#pright {
+	float:left; /* floats on nav and content divs make them sit side by side */
+	width:62%; /* this width + nav width must total 100% */
+	}
+	
+#footer {
+	clear:both; /* makes the footer sit below whichever column is longest */
+	background-image: url(images/feather.jpg);
+	background-repeat: no-repeat;
+	border-top-width: thin;
+	border-top-style: double;
+	border-top-color: #FFFF00;
+	}
+/* #header_inner, #nav_inner, #content_inner, #promo_inner {
+	overflow:hidden;*/ /* clips oversize elements that would otherwise expand divs and break the layout */
+	/*} */
+	
+#header_inner { 
+	padding:1em 2em;/* creates space between the box  and the content */
+	}
+#navbar_inner {
+	padding: 1em;
+	text-align: center;
+	}
+#left_inner {
+	padding:2em 1em 1em 4em; /* creates space between the box and the content */
+	}
+#right_inner {
+	padding:4em 1em 1em 1.5em; /* creates space between the box and the content */
+	}
+#footer_inner {
+	padding: .5em 1em; /* creates space between the box and the content */
+	text-align: center;
+	}
+
+h1 {
+	font-family: 'Times New Roman', serif;
+	color:#0068b7;
+	font-size:1.6em; /* 24pt */
+	} 
+h2 {
+	text-transform: uppercase;
+	color:#0068b7;
+	/*font-size:1.5em;*/ /* 22pt */
+	margin: .5em;
+	} 
+h3 {
+	text-transform: uppercase;
+	text-align: center;
+	color:#0068b7;
+	font-size:.8em; /* 18pt */
+	} 
+
+h4  {
+	text-transform: uppercase;
+	color:#0068b7;
+	font-size:.85em; /* 16pt */
+	}
+h5  {
+	text-transform: uppercase;
+	color:#0068b7;
+	line-height: 160%;	/*font-size:.75em;*/ /* 16pt */
+	} 
+h6 {
+	font-family: 'Times New Roman', serif;
+	color:#0068b7;
+	font-size: 0.9em;
+	font-style: normal;
+	line-height: 120%;
+	font-weight: normal;
+	}
+	
+p  {
+	font-size: .75em; /* 12pt */
+	line-height: 1.25; /* on 15pt */
+	/* margin-bottom:.75em; */ /* 12pts of space */
+	}
+	
+ol {
+	/* font-family: 'Times New Roman', serif; */
+	color:#0068b7;
+	margin:0em 1em .75em 1em; /* lists without specific classes */
+	/*font-size:.75em;*/
+	line-height:1.5;
+	}
+ul  {
+	/*font-family: 'Times New Roman', serif;*/
+	color:#000000; /* lists without specific classes */
+	font-size:.75em;
+	} 
+li  {
+	line-height: 145%;
+	}
+
+a {
+	text-decoration: none;
+	/*color:#0068b7;*/
+	}
+	
+a:hover {
+	text-decoration:none;
+	color:#000;
+	}	
+	
+#nav { 
+   text-align: center;
+}
+#nav a {
+	text-decoration: none;
+	color:#0068b7;
+	margin: 0em 2em 0em 2em;
+}
+#nav a:hover {
+	color:#000;
+}
+
+
+#footer p {
+/*	margin:0em; */
+	}
+	
+img {
+	border:0em;
+	}
+.image {
+	border-top-width: 2px;
+	border-right-width: 4px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+}
+	
+
+	.clearfix {
+	display: block;
+}
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0em;
+	clear: both;
+	visibility: hidden;
+}
